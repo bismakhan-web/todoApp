@@ -1,0 +1,89 @@
+body{
+
+    text-align: center;
+    font-size: 20px;
+}
+table{
+
+    margin: 0px auto;
+}
+.navbar-brand{
+
+    font-weight: bold;
+}
+#inp{
+
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+#inp:focus{
+
+    outline: none;
+}
+.main{
+
+    margin-top: 100px !important;
+    height: 500px;
+    overflow: scroll;
+}
+#todoItem{
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    width: 300px;
+}
+.bg-gradient-dark{
+
+    background-color: rgb(8, 38, 89);
+}
+#todoItem:focus{
+
+    outline: none;
+    border-bottom: 2px solid rgb(8, 38, 89);
+}
+#divValue{
+
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    border-bottom: 2px solid rgb(194, 196, 199);
+    width: 300px;
+}
+#dltbtn, #editbtn, #add, #dlt{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* background-color: rgb(141, 93, 175); */
+    background-image: linear-gradient(to right, rgb(98, 187, 165), rgb(8, 38, 89));
+    color: whitesmoke;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+#dltbtn:hover , #editbtn:hover, #add:hover, #dlt:hover{
+
+    background-color: rgb(119, 136, 153);
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#editbtn:disabled{
+
+    color: black;
+}
+@media only screen and (max-width : 500px){
+
+    #dltbtn, #editbtn, #add, #dlt{
+        
+        font-size: 10px ;
+    }
+}
